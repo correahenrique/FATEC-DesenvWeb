@@ -1,0 +1,18 @@
+# Dependências (Nunca suba essa pasta!)
+node_modules/
+
+# Logs do NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configurações de IDE (VS Code)
+.vscode/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de ambiente (caso você use um arquivo .env no futuro)
+.env
+.env.local
