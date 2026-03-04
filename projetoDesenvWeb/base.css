@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Abas {
+    display: flex;
+}
+
+nav {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+main {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.389);
+    color: black;
+    display: flex;
+        min-height: 400px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 20px;
+}
+
+section {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    color: white;
+    height: auto;
+}
+
+section p {
+    width: 100%;
+    height: auto;
+    margin-bottom: 130px;
+}
+
+.jogo1 img {
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 4px;
+}
+
+aside {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 30%;
+}
+
+.titulo {
+    width: 80%;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.421);
+}
+
+.button {
+    background-color: rgba(17, 255, 0, 0.779);
+    width: 50%;
+    height: 10%;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.compras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}

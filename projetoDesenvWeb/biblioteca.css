@@ -1,0 +1,27 @@
+body {
+    background-color: #121212;
+}
+
+section.vazia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mensagemVazia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.mensagemVazia img {
+    width: 80px;
+}
+
+.mensagemVazia h2 {
+    color: #ffffff;
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: #1a0505;
+}
+
+section.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.avisoNegado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.avisoNegado img {
+    width: 100px;
+}
